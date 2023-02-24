@@ -229,6 +229,5 @@ app.post("/add", async (req, res) => {
  //_______________________________________________
 
 const port = process.env.PORT || 3500;
-console.log(process.env.PORT)
 // Listen on 3500 server port, send console log on successful start
 server.listen(port, () => console.log("API Server is running..."));
