@@ -17,7 +17,7 @@ const app = express();
 //create websocket server
 const { Server } = require('socket.io');
 
-const server = require("https").createServer(app);
+const server = require("http").createServer(app);
 
 //allow json usage
 app.use(express.json());
